@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0065FC;
+    --light-blue: #DEEBFF;
+    --grey-bg: #F2F2F2;
+}

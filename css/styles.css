@@ -220,6 +220,7 @@ input[type="submit"] {
 .popular-section {
     width: 30%;
 }
+
 .card-title h3 {
     margin: 0;
 }
@@ -228,7 +229,7 @@ input[type="submit"] {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    width: 85%;
+    width: 95%;
 }
 
 .popular-cards a {

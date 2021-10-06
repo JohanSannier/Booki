@@ -154,7 +154,7 @@ input[type="submit"] {
 
 /* Main */
 
-/* Cards */
+/* Section lodging */
 
 .hotel-cards, .popular-cards {
     min-width: 210px;
@@ -204,11 +204,11 @@ input[type="submit"] {
 
 .main-city {
     display: flex;
+    justify-content: space-around;
 }
 
 .lodging-section {
-    margin-right: 30px;
-    width: 66%;
+    width: 60%;
 }
 
 .lodging-section, .popular-section {
@@ -218,7 +218,7 @@ input[type="submit"] {
 }
 
 .popular-section {
-    width: 30%;
+    width: 32%;
 }
 
 .card-title h3 {
@@ -255,4 +255,6 @@ input[type="submit"] {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* Section Activity */
 

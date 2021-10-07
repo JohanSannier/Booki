@@ -265,8 +265,7 @@ h4 {
 }
 
 .popular-cards {
-    margin-bottom: 40px;
-    min-height: 150px;
+    min-height: 120px;
     width: 85%;
 }
 
@@ -275,7 +274,7 @@ h4 {
     border-top-right-radius: initial;
     object-fit: cover;  
     width: 40%;
-    min-height: 140px;
+    min-height: 110px;
 
 }
 

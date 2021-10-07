@@ -71,6 +71,11 @@ h1 {
 h2 {
     font-size: 18px;
     font-weight: 800;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 18px;
 }
 
 /* Searchbar */
@@ -234,6 +239,7 @@ h2 {
 
 .card-title h3 {
     margin: 0;
+    font-weight: 700;
 }
 
 .popularity-wrapper {
@@ -291,6 +297,12 @@ h4 a:hover {
     height: 100%;
 }
 /* Section Activity */
+
+.lodging-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .main-activity {
     margin-top: 50px;
@@ -484,5 +496,60 @@ footer a:hover {
     }
     #mobile-button:hover {
         color: black;
+    }
+    .searchbar {
+    justify-content: center;
+    }
+    .popular-section{
+        border-radius: initial;
+    }
+    .lodging-wrapper {
+        flex-direction: column;
+    }
+    .lodging-section{
+        background-color: initial;
+    }
+    .hotel-cards {
+        width: initial;
+    }
+    .popular-section {
+        order: -1;
+    }
+    .popular-cards {
+        width: 100%;
+    }
+    .main-activity {
+        margin: 0 20px;
+    }
+    .activities {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+    }   
+    .big-card-activity, .small-card-activity {
+        width: 100%;
+        padding: 0;
+    }
+    .big-card-activity img, .small-card-activity img {
+        height: 70%;
+    }
+    .activity-wrapper {
+        height: 100%;
+        width: 100%;
+    }
+    #pomegues, #frioul {
+        height: 170px;
+        padding: 0;
+    }
+    .card {
+        height: 170px;
+        margin-bottom: 30px;
+    }
+    form {
+        margin-left: 10px;
+    }
+    footer {
+        flex-direction: column;
     }
     }

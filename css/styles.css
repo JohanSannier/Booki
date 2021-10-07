@@ -195,7 +195,7 @@ input[type="submit"] {
     color: rgba(128, 128, 128, 0.356);
 }
 
-.hotel-cards:hover, .popular-cards:hover {
+.hotel-cards:hover, .popular-cards:hover, .small-card-activity:hover, .big-card-activity:hover {
     transition: .3s;
     box-shadow: 0px 10px 20px 10px #999;
 }
@@ -277,3 +277,74 @@ h4 a:hover {
 
 /* Section Activity */
 
+.main-activity {
+    margin-top: 50px;
+}
+
+#activity {
+    margin-bottom: 20px;
+}
+
+.big-card-activity img, .small-card-activity img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.big-card-activity img {
+    height: 90%;
+}
+
+.small-card-activity img {
+    height: 77%;
+}
+
+.small-card-activity {
+    height: 45%;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activity-wrapper {
+    width: 260px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.big-card-activity, .small-card-activity {
+    width: 260px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 4px 2px var(--grey-bg);
+}
+
+.big-card-activity {
+    height: 400px;
+}
+
+.small-card-activity p, .big-card-activity p {
+    font-weight: 800;
+    padding: 12px 0px 10px 20px;
+    margin: 0;
+}
+
+/* Exception pour la taille différente des deux images Pomègues et Frioul */
+
+#pomegues {
+    height: 55%;
+    padding-bottom: 0;
+}
+
+#frioul {
+    height: 35%;
+    padding-bottom: 22px;
+}
+
+/* Footer */

@@ -216,6 +216,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 10px;
 }
 
 .main-city {

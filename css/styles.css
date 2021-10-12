@@ -453,7 +453,6 @@ footer a:hover {
         justify-content: center;
         margin-top: 20px;
         align-items: initial;
-        border-bottom: 3px solid var(--grey-bg);
     }
     .nav-bar img {
         position: relative;
@@ -481,6 +480,7 @@ footer a:hover {
     .nav-bar li {
         width: 50%;
         text-align: center;
+        border-bottom: 3px solid var(--grey-bg);
     }
     h1 {
         margin-top: 20px;

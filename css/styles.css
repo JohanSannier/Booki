@@ -237,6 +237,9 @@ h2 {
 
 .popular-section {
     width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .popular-section .card-desc > * {
@@ -246,12 +249,6 @@ h2 {
 .small-title {
     margin: 0;
     font-weight: 700;
-}
-
-.popularity-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .flex-icon {
@@ -271,8 +268,8 @@ h2 {
 }
 
 .popular-cards {
-    min-height: 120px;
     width: 85%;
+    display: flex;
 }
 
 .popular-cards img {
@@ -281,6 +278,7 @@ h2 {
     object-fit: cover;  
     width: 40%;
     height: 100%;
+    aspect-ratio: 1;
 }
 
 .popular-cards .card-desc {
@@ -292,12 +290,6 @@ h2 {
 
 .medium-title a:hover {
     color: var(--blue);
-}
-
-.tall-img {
-    /* max-height: 115px; */
-    max-height: 115px;
-    /* height: 125px; */
 }
 
 /* Section Activity */
@@ -432,8 +424,11 @@ footer a:hover {
     .lodging-section {
         margin-bottom: 30px;
     }
+    .popular-cards {
+        display: initial;
+    }
     .popular-cards img {
-        max-height: 140px;
+        max-height: 115px;
     }
     .footer-wrapper {
         width: initial;
@@ -526,6 +521,11 @@ footer a:hover {
     }
     .popular-cards {
         width: 100%;
+        height: initial;
+    }
+    .popular-cards img {
+        height: initial;
+        aspect-ratio: 1;
     }
     .main-activity {
         margin: 0 20px;

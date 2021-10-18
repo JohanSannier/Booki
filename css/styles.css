@@ -276,9 +276,8 @@ h2 {
     border-bottom-left-radius: 15px;
     border-top-right-radius: initial;
     object-fit: cover;  
-    width: 40%;
-    height: 100%;
-    aspect-ratio: 1;
+    max-width: 40%;
+    aspect-ratio: 1/1;
 }
 
 .popular-cards .card-desc {
@@ -311,7 +310,7 @@ h2 {
 .big-card-activity img, .small-card-activity img {
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -337,7 +336,6 @@ h2 {
 .activity-wrapper {
     width: 260px;
     height: 400px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -525,8 +523,13 @@ footer a:hover {
     }
     .popular-cards img {
         height: initial;
-        aspect-ratio: 1;
+        aspect-ratio: 1/1;
+        min-width: 40%;
     }
+    h3.card-title {
+        font-size: 16px;
+    }
+
     .main-activity {
         margin: 0 20px;
     }
@@ -534,7 +537,6 @@ footer a:hover {
         flex-direction: column;
         width: 100%;
         margin-bottom: 20px;
-        align-items: center;
     }   
     .big-card-activity, .small-card-activity {
         width: 100%;
